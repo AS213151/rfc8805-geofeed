@@ -1,0 +1,5 @@
+# AS213151 Geofeed,lastupdated (rfc3339): 2021-08-22T11:38:00-07:00
+# Self-published geofeed as defined in datatracker.ietf.org/doc/html/rfc8805
+2a06:e881:7300::/40,DE,DE-HE,Frankfurt,
+2001:678:1e8::/48,DE,DE-HE,Frankfurt,
+185.197.135.0/24,DE,DE-HE,Frankfurt,
