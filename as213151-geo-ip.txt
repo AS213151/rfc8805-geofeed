@@ -3,4 +3,8 @@
 2a06:e881:7300::/40,DE,DE-HE,Frankfurt,
 2001:678:1e8::/48,DE,DE-HE,Frankfurt,
 2602:fb2a::/40,DE,DE-HE,Frankfurt,
+2602:fb2a:c0::/46,US,US-VA,Ashburn,
+2602:fb2a:c4::/46,US,US-OH,Columbus,
+2602:fb2a:c8::/46,US,US-CA,San Francisco,
+2602:fb2a:cc::/46,US,US-OR,Boardman,
 185.197.135.0/24,DE,DE-HE,Frankfurt,
