@@ -7,6 +7,7 @@
 2602:fb2a:c4::/46,US,US-OH,Columbus,
 2602:fb2a:c8::/46,US,US-CA,San Francisco,
 2602:fb2a:cc::/46,US,US-OR,Boardman,
+2602:f2a:d0::/46,NZ,NZ-AUK,Auckland,
 2602:fb2a:f8::/46,IN,IN-MH,Mumbai,
 2602:fb2a:ff::/48,US,US-VA,Ashburn,
 185.197.135.0/24,DE,DE-HE,Frankfurt am Main,
