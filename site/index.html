@@ -1,19 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AS213151 Geofeed</title>
-  <style>
-    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; color: #222; }
-    img { max-width: 200px; }
-    a { color: #0066cc; }
-  </style>
-</head>
-<body>
-  <img src="https://as213151.net/images/AS213151.png" alt="AS213151 Logo">
-  <h1>AS213151 Geofeed</h1>
-  <p>A <a href="https://datatracker.ietf.org/doc/html/rfc8805">geofeed (RFC 8805)</a> is a self-published CSV file that maps IP prefixes to geographic locations. It allows network operators to provide authoritative geolocation hints for their IP space, improving the accuracy of IP geolocation databases.</p>
-  <p><strong>Geofeed file:</strong> <a href="geofeed.txt">geofeed.txt</a></p>
-</body>
+<html>
+  <head>
+    <title>Geofeed – AS213151 - Christian Elsen Networks</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="RFC 8805 Geofeed for AS213151">
+    <style>
+      html, body, div, h1, h2, p, a, img, article { margin: 0; padding: 0; border: 0; font: inherit; vertical-align: baseline; }
+      *, *:before, *:after { box-sizing: border-box; }
+      body { background: #fff; font: 18px/1.4 Helvetica, Arial, sans-serif; color: #333; }
+      .container { margin: 0 auto; max-width: 740px; padding: 0 10px; width: 100%; }
+      h1, h2 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #222; font-weight: bold; line-height: 1.7; margin: 1em 0 15px; }
+      h1 { font-size: 30px; text-align: center; }
+      h2 { font-size: 24px; }
+      p { margin: 15px 0; }
+      a { color: #4183C4; text-decoration: none; cursor: pointer; }
+      img { max-width: 100%; }
+      .wrapper-masthead { margin-bottom: 50px; }
+      .masthead { padding: 20px 0; border-bottom: 1px solid #eee; }
+      .site-avatar { float: left; width: 70px; height: 70px; margin-right: 15px; }
+      .site-avatar img { border-radius: 5px; }
+      .site-info { float: left; }
+      .site-name { margin: 0; color: #333; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 28px; letter-spacing: 1px; }
+      .site-name a { color: inherit; }
+      .site-description { margin: -5px 0 0 0; color: #666; font-size: 16px; }
+      .clearfix:before, .clearfix:after { content: " "; display: table; }
+      .clearfix:after { clear: both; }
+      .wrapper-footer { margin-top: 50px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #eee; }
+      footer { padding: 20px 0; text-align: center; }
+      .copyright { padding: 20px 0; text-align: center; font-size: .6875em; }
+      @media screen and (max-width: 640px) {
+        .masthead { text-align: center; }
+        .site-avatar { float: none; display: block; margin: 0 auto; }
+        .site-info { float: none; display: block; margin: 0 auto; }
+        .site-description { margin: 3px 0; }
+        h1 { line-height: 1.4; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="https://as213151.net/" class="site-avatar"><img src="https://as213151.net/images/AS213151.png" alt="AS213151 Logo"></a>
+          <div class="site-info">
+            <h1 class="site-name"><a href="https://as213151.net/">AS213151</a></h1>
+            <p class="site-description">Christian Elsen Networks</p>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div id="main" role="main" class="container">
+      <article class="post">
+        <h1>Geofeed</h1>
+        <div class="entry">
+          <p>A <a href="https://datatracker.ietf.org/doc/html/rfc8805">geofeed (RFC 8805)</a> is a self-published CSV file that maps IP prefixes to geographic locations. It allows network operators to provide authoritative geolocation hints for their IP space, improving the accuracy of IP geolocation databases.</p>
+          <p><strong>Geofeed file:</strong> <a href="geofeed.txt">geofeed.txt</a></p>
+        </div>
+      </article>
+    </div>
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer"></footer>
+      </div>
+    </div>
+    <div align="center" class="copyright">&copy; 2020 - 2025 AS213151 LLC.</div>
+  </body>
 </html>
